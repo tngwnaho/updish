@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search_shape_sp" transform="translate(-234.000000, -1003.000000)">
+            <g id="Group" transform="translate(234.000000, 1003.000000)">
+                <path d="M29.3302053,25.7956257 L27.4766291,25.7956257 L26.8196654,25.1624964 C29.6352242,21.8796035 31.0899296,17.4007995 30.2921879,12.6406048 C29.1894274,6.12171737 23.7460137,0.915987143 17.1763765,0.118713144 C7.25153173,-1.10064709 -1.1012927,7.24728066 0.118782778,17.1663072 C0.916524438,23.732093 6.12530821,29.1723156 12.6480194,30.2744297 C17.4110064,31.0717037 21.8924375,29.6178511 25.1772561,26.8039429 L25.8107568,27.4605214 L25.8107568,29.313011 L35.7825276,39.278936 C36.7445101,40.2403547 38.3165305,40.2403547 39.2785131,39.278936 C40.2404956,38.3175174 40.2404956,36.7464186 39.2785131,35.785 L29.3302053,25.7956257 Z M15.5,26 C9.69,26 5,21.31 5,15.5 C5,9.69 9.69,5 15.5,5 C21.31,5 26,9.69 26,15.5 C26,21.31 21.31,26 15.5,26 Z" id="Shape" fill="#1A1818" fill-rule="nonzero"></path>
+                <text id="＋" font-family="NotoSansJP-Bold, Noto Sans JP Bold" font-size="13" font-weight="bold" fill="#504C4C">
+                    <tspan x="9" y="20">＋</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

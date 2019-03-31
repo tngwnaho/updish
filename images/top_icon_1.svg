@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="77px" viewBox="0 0 84 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(1.000000, -0.910786)" stroke="#575757">
+            <ellipse id="Oval" stroke-width="4" cx="42.9666667" cy="40.8228251" rx="23.5" ry="24.5"></ellipse>
+            <path d="M27.8,45.8522369 L27.8,41.9588094 C27.8,37.7010897 29.193094,33.5603008 31.7666667,30.1684134 L31.7666667,30.1684134 C34.2655712,26.8749362 38.1615995,24.9404722 42.2957882,24.9404722 L43.6666667,24.9404722" id="Path" stroke-width="2"></path>
+            <g id="Group" transform="translate(0.000000, 4.910786)" fill="#575757">
+                <rect id="Rectangle" x="7.5" y="23.5" width="3" height="49"></rect>
+                <rect id="Rectangle" transform="translate(2.000000, 13.500000) scale(-1, 1) translate(-2.000000, -13.500000) " x="0.5" y="2.5" width="3" height="22"></rect>
+                <rect id="Rectangle" transform="translate(9.000000, 11.500000) scale(-1, 1) translate(-9.000000, -11.500000) " x="7.5" y="0.5" width="3" height="22"></rect>
+                <rect id="Rectangle" transform="translate(17.000000, 13.500000) scale(-1, 1) translate(-17.000000, -13.500000) " x="15.5" y="2.5" width="3" height="22"></rect>
+                <path d="M16.6275336,32.5403823 L17,32.8888889 L0,34 L-1.77635684e-15,34 C3.71478312,29.0469558 10.7414455,28.0431469 15.6944896,31.7579301 C16.0194505,32.0016507 16.3309245,32.2628533 16.6275336,32.5403823 Z" id="Triangle" transform="translate(8.500000, 29.000000) scale(1, -1) translate(-8.500000, -29.000000) "></path>
+            </g>
+            <g id="Group-2" transform="translate(69.000000, 0.058119)" fill="#575757">
+                <path d="M26.0262069,25.5375424 L29.4621351,31.6079145 L-15.8648893,30.459915 C-16.416997,30.4459318 -16.853233,29.9870244 -16.8392498,29.4349167 C-16.8291595,29.0365186 -16.5834764,28.6821439 -16.2139299,28.532952 L7.35683962,19.0170472 C14.3345509,16.2000312 22.3195647,18.9888908 26.0262069,25.5375424 Z" id="Triangle" transform="translate(6.311279, 24.766005) scale(-1, 1) rotate(89.000000) translate(-6.311279, -24.766005) "></path>
+                <rect id="Rectangle" x="10.2460202" y="44.701084" width="2.73333333" height="32.5303167"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

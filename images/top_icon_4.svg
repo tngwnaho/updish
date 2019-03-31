@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="81px" viewBox="0 0 85 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(1.000000, 1.000000)">
+            <path d="M41.1121495,62.1638688 C40.7492443,38.2352383 83,58.0584123 83,38.2355151 C83,18.4126179 63.8177628,0 41.1121495,0 C18.4065363,0 0,16.0696333 0,35.8925305 C0,46.7308823 5.96620044,66.0355321 17.0654206,72.5826728 C26.266215,78.0099815 41.5,87.7372967 41.1121495,62.1638688 Z" id="Oval" stroke="#575757" fill="#575757"></path>
+            <ellipse id="Oval" stroke="#D8D8D8" stroke-width="0.9" fill="#D8D8D8" cx="18" cy="44.1470588" rx="8" ry="6.97058824"></ellipse>
+            <ellipse id="Oval" stroke="#D8D8D8" stroke-width="0.9" fill="#D8D8D8" cx="22" cy="23.7" rx="8" ry="6.97058824"></ellipse>
+            <ellipse id="Oval" stroke="#D8D8D8" stroke-width="0.9" fill="#D8D8D8" cx="45" cy="15.3352941" rx="8" ry="6.97058824"></ellipse>
+            <ellipse id="Oval" stroke="#D8D8D8" stroke-width="0.9" fill="#D8D8D8" cx="64" cy="24.6294118" rx="8" ry="6.97058824"></ellipse>
+        </g>
+    </g>
+</svg>

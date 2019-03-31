@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- ページの基本情報 -->
+  <meta charset="utf-8">
+  <title>updish</title>
+
+  <!-- descriptionとは、検索エンジンと検索ユーザーへ、ページの概要を伝えるためのタグ -->
+  <meta name="description" center="">
+  <meta name="author" content="">
+
+  <!-- レスポンシブデザインを表す(viewpointで、文書の表示領域を設定。初期のズーム倍率を１倍とする。) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700&amp;subset=japanese" rel="stylesheet">
+  
+  
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="js/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="js/owlcarousel/assets/owl.theme.default.min.css">
+  
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- 必要なJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  
+  <script src="js/owlcarousel/owl.carousel.min.js"></script>
+  <script src="js/masonry/masonry.pkgd.min.js"></script> 
+  <script src="js/imagesloaded-master/imagesloaded.pkgd.min.js"></script>
+  <script src="js/func.js"></script>
+  <script src="js/toggle.js"></script>
+  <script src="js/hamberger.js"></script>
+  
+  <!-- Owl Carouselを動作させるために追加 -->
+  <script src="js/test-carousel.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!----------------------------header-------------------------------->
+    <header>
+      <div class="header__upper">
+        <div class="container__auto">
+          <div class="header__upper__bar">
+            <div class="header__upper__bar_logo">
+              <a href="index.html"><img src="images/logo.png" alt="updish's logo"></a>
+            </div>
+            <div class="header__upper__bar_links">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="mypage.html">Myページ</a></li>
+              </ul>
+            </div>
+        		<a class="header__upper__bar_hamberger_btn" href="#">
+        			<span></span>
+        			<span></span>
+        			<span></span>
+        		</a>
+        		<nav class="nav-wrap">
+        			<ul class="nav">
+        				<li><a href="index.html">HOME</a></li>
+        				<li><a href="mypage.html">Myページ</a></li>
+        			</ul>
+        		</nav>
+        	</div>
+        </div>
+      </div>
+      <div class="header__lower">
+        <div class="container__auto">
+          <div class="header__lower__searchbar">
+          <div class="header__lower__searchbar_searchbox">
+            <div class="header__lower__searchbar_searchbox_category">
+              <div class="header__lower__searchbar_searchbox_category_menu" id="category_menu">
+                <div><p>すべてのカテゴリー</p></div>
+                <div class="header__lower__searchbar_searchbox_category_menu_triangle"></div>
+              </div>
+              <ul class="header__lower__searchbar_searchbox_category_toggle" id="category_toggle">
+                <li>マグカップ</li>
+                <li>カップ&ソーサー</li>
+                <li>プレート</li>
+                <li>ボウル類</li>
+                <li>ポット・ピッチャー</li>
+                <li>カトラリー</li>
+              </ul>
+            </div>
+            <form class="header__lower__searchbar_searchbox_form" action="自分のサイトURL">
+              <input class="header__lower__searchbar_searchbox_form_sbox" name="s" type="text" placeholder="Search..." />
+              <input class="header__lower__searchbar_searchbox_form_sbtn" type="submit" value="検索" />
+            </form>
+          </div>
+          <div class="header__lower__searchbar_searchfeatures shape">
+            <a href="search_shape.html">形からさがす</a>
+          </div>
+          <div class="header__lower__searchbar_searchfeatures color">
+            <a href="search_color.html">色からさがす</a>
+          </div>
+          <div class="header__lower__searchbar_searchfeatures dish">
+            <a href="search_cook.html">料理からさがす</a>
+          </div>
+        </div>  
+        <div class="header__lower__sp__searchbar">
+          <form class="header__lower__sp__searchbar_form" action="自分のサイトURL">
+            <input class="header__lower__sp__searchbar_form_sbox" name="s" type="text" placeholder="Search..." />
+          </form>            
+        </div>
+        <div class="header__lower__sp__tabs">
+          <div class="header__lower__sp__tabs_feature">
+            <a href="search_detail.html#category"><img src="images/top_icon_1.svg">
+            <p>カテゴリ</p></a>
+          </div>
+          <div class="header__lower__sp__tabs_feature">
+            <a href="search_detail.html#shape"><img src="images/top_icon_2.svg">
+            <p>形からさがす</p></a>
+          </div>
+          <div class="header__lower__sp__tabs_feature">
+            <a href="search_detail.html#color"><img src="images/top_icon_4.svg">
+            <p>色からさがす</p></a>
+          </div>
+          <div class="header__lower__sp__tabs_feature">
+            <a href="search_detail.html#cook"><img src="images/top_icon_3.svg">
+            <p>料理からさがす</p></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------/header-------------------------------->
+    
+    <div class="main">
+      <div class="container__auto">
+        <div class="main__top_images owl-carousel owl-theme">
+          <div><img src="images/top_image_1.svg"></div>
+          <div><img src="images/top_image_1.svg"></div>
+          <div><img src="images/top_image_1.svg"></div>
+        </div>
+      
+        <div class="main__popular__category">
+          <p>人気のカテゴリー</p>
+          <div class="main__popular__category__images">
+            <div class="main__popular__category__images_img">
+              <img src="images/top_image_popular_cate1.jpg">
+              <p>マグカップ</p>
+            </div>
+            <div class="main__popular__category__images_img">
+              <img src="images/top_image_popular_cate2.jpg">
+              <p>プレート</p>
+            </div>
+            <div class="main__popular__category__images_img main__popular__category__images_img_nosp">
+              <img src="images/top_image_popular_cate3.jpg">
+              <p>茶碗</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="main__recommend__viewitems">
+          <div class="main__recommend__viewitems_title">
+            <p>閲覧履歴からのおすすめ</p>
+          </div>
+          <ul class="grid__images">
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_4.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_5.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_4.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_5.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_4.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_5.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_4.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_5.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_4.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_5.jpg"></figure></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
+</body>
+
+</html>

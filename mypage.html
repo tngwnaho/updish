@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- ページの基本情報 -->
+  <meta charset="utf-8">
+  <title>updish</title>
+
+  <!-- descriptionとは、検索エンジンと検索ユーザーへ、ページの概要を伝えるためのタグ -->
+  <meta name="description" center="">
+  <meta name="author" content="">
+
+  <!-- レスポンシブデザインを表す(viewpointで、文書の表示領域を設定。初期のズーム倍率を１倍とする。) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,700&amp;subset=japanese" rel="stylesheet">
+  
+  
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="js/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="js/owlcarousel/assets/owl.theme.default.min.css">
+  
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- 必要なJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  
+  <script src="js/owlcarousel/owl.carousel.min.js"></script>
+  <script src="js/masonry/masonry.pkgd.min.js"></script> 
+  <script src="js/imagesloaded-master/imagesloaded.pkgd.min.js"></script>
+  <script src="js/func.js"></script>
+  <script src="js/toggle.js"></script>
+  <script src="js/hamberger.js"></script>
+  
+  <!-- Owl Carouselを動作させるために追加 -->
+  <script src="js/test-carousel.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!----------------------------header-------------------------------->
+    <header>
+      <div class="header__upper">
+        <div class="container__auto">
+          <div class="header__upper__bar">
+            <div class="header__upper__bar_logo">
+              <a href="index.html"><img src="images/logo.png" alt="updish's logo"></a>
+            </div>
+            <div class="header__upper__bar_links">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="mypage.html">Myページ</a></li>
+              </ul>
+            </div>
+        		<a class="header__upper__bar_hamberger_btn" href="#">
+        			<span></span>
+        			<span></span>
+        			<span></span>
+        		</a>
+        		<nav class="nav-wrap">
+        			<ul class="nav">
+        				<li><a href="index.html">HOME</a></li>
+        				<li><a href="mypage.html">Myページ</a></li>
+        			</ul>
+        		</nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__lower__mypage">
+        <div class="container__auto">
+          <div class="header__lower__searchbar">
+            <div class="header__lower__searchbar_pankuzu">
+              <ul>
+                <li><a class="header__lower__searchbar_pankuzu_bflink" href="index.html">HOME</a></li>
+                <li><a class="header__lower__searchbar_pankuzu_nowlink" href="#">Myページ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!----------------------------/header-------------------------------->
+    
+    <div class="main">
+      <div class="container__auto">
+        <div class="main__mypage">
+          <div class="main__mypage__profile">
+            <div class="main__mypage__profile_image">
+              <img src="images/naho_sepia.png">
+            </div>
+            <div class="main__mypage__profile_name">
+            <p>Naho Ishigami</p>
+            </div>
+          </div>
+          <div class="main__mypage__title">
+            <p>保存した画像</p>
+          </div>
+          <ul class="grid__images">
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_1.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_2.jpg"></figure></a></li>
+            <li class="item"><a href="detail.html"><figure><img src="images/top_grid_image_3.jpg"></figure></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
+</body>
+
+</html>

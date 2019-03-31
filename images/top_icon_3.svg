@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="86px" viewBox="0 0 79 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(0.000000, 1.000000)" fill="#575757" stroke="#575757">
+            <path d="M91.0744781,26.4020208 L95.4591845,37.1618665 L42.560121,36.1055814 C42.0079463,36.0945556 41.5692585,35.6379914 41.5802842,35.0858167 C41.5874245,34.7282318 41.7849955,34.401685 42.0984318,34.2294188 L69.9587756,18.9172251 C77.2187954,14.9270795 86.3388565,17.5778362 90.3290021,24.837856 C90.6074258,25.3444444 90.856333,25.8667038 91.0744781,26.4020208 Z" id="Triangle" transform="translate(68.519633, 27.110863) scale(-1, 1) rotate(89.000000) translate(-68.519633, -27.110863) "></path>
+            <rect id="Rectangle" x="69.5" y="50.5" width="8.56962025" height="33.2333333"></rect>
+            <g id="Group" transform="translate(0.000000, 5.000000)">
+                <rect id="Rectangle" x="14.5" y="25.5" width="6" height="53"></rect>
+                <rect id="Rectangle" transform="translate(3.500000, 14.500000) scale(-1, 1) translate(-3.500000, -14.500000) " x="0.5" y="2.5" width="6" height="24"></rect>
+                <rect id="Rectangle" transform="translate(17.500000, 12.500000) scale(-1, 1) translate(-17.500000, -12.500000) " x="14.5" y="0.5" width="6" height="24"></rect>
+                <rect id="Rectangle" transform="translate(31.500000, 14.500000) scale(-1, 1) translate(-31.500000, -14.500000) " x="28.5" y="2.5" width="6" height="24"></rect>
+                <path d="M24.2997571,31.9960146 L31,35.7777778 L0,37 L4.17092229,33.6453227 C9.91097151,29.028595 17.8847471,28.375243 24.2997571,31.9960146 Z" id="Triangle" transform="translate(15.500000, 31.500000) scale(1, -1) translate(-15.500000, -31.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
